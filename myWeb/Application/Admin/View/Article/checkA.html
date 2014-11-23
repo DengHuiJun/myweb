@@ -1,0 +1,57 @@
+<include file='Public:header'/>
+      <!-- End .clear -->
+     <div class="tab-content default-tab" id="tab1">
+          <!-- This is the target div. id must match the href of this div's tab -->
+          <table>
+            <thead>
+              <tr>
+                <th>
+                  <input class="check-all" type="checkbox" />
+                </th>
+                <th>序号(id)</th>
+                <th>标题</th>
+                <th>作者</th>
+                <th>时间</th>
+                <th>状态码</th>
+                <th>操作</th>
+              </tr>
+            </thead>
+
+            <tfoot>
+              <tr>
+                <td colspan="6">
+				<span><{$page}></span>	      
+                </td>
+              </tr>
+            </tfoot>
+            <tbody>
+
+			 <volist name = "data" id = "article">
+              <tr>
+                <td>
+                  <input type="checkbox" />
+                </td>
+                <td><{$article.id}></td>
+                <td><{$article.title}></td>
+                <td><{$article.author}></td>
+                <td><{$article.time}></td>
+                <td><{$article.code}></td>
+                <td>
+                  <!-- Icons -->
+                  <a href="__APP__/Admin/Article/update/?id=<{$article.id}>" title="Edit">
+                  	<img src="__PUBLIC__/Admin/Img/icons/pencil.png" alt="Edit" />
+                  </a>
+                  <a href="__APP__/Admin/Article/dodel/?id=<{$article.id}>" title="Delete">
+                  	<img src="__PUBLIC__/Admin/Img/icons/cross.png" alt="Delete" />
+                  </a> 
+                  <a href="#" title="Edit Meta">
+                  	<img src="__PUBLIC__/Admin/Img/icons/hammer_screwdriver.png" alt="Edit Meta" />
+                  </a> 
+                </td>
+              </tr>
+             </volist>
+
+            </tbody>
+          </table>
+        </div>
+<include file='Public:copyright'/>

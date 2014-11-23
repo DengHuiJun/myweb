@@ -1,0 +1,36 @@
+<include file='Public:nav'/>
+  <link rel="stylesheet" href="__PUBLIC__/Home/Css/music.css"> 
+
+  <div class = "main"> 
+		<div class = "left_box">
+        <ul class="nav nav-tabs" role="tablist">
+          <li role="presentation" class="active"><a href="__APP__/Home/Audio/music">音乐收藏</a></li>
+          <li role="presentation"><a href="__APP__/Home/Audio/video">视频收藏</a></li>
+        </ul>
+        <p class = "list text-center">音乐列表</p>
+
+        <ul class="list-group">
+          <volist name = "list" id = "ls">
+          <a href ="__URL__/play/?id={$ls.id}"><li class="list-group-item">{$ls.title}</li></a>
+          </volist>
+        </ul>
+
+    </div>
+
+    <div class = "right_box">
+      <div class = "music_view">
+        <audio controls="controls">
+                        <source src="{$arr.url}" type="audio/mpeg">
+                    Your browser does not support the audio tag.
+        </audio>
+      </div>
+      <div class = "introduce_title"><strong>音乐简介</strong></div>
+      <p class = "introduce text-left">&nbsp;&nbsp;&nbsp;&nbsp;{$arr.content}</p>
+    </div>
+
+    </div>
+     
+          <div class = "clearFloat"></div>
+
+      
+<include file='Public:copyright'/>

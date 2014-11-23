@@ -1,0 +1,42 @@
+<include file='Public:header'/>
+
+   <div class = "addAudio">
+		<h2>添加影音文件</h2>
+    	<hr />
+		<form action="__URL__/doAdd" method="post">    
+            <p>
+              <label>输入标题：</label>
+              <input class="text-input small-input" type="text" id="small-input" name="title" />
+              <span class="input-notification success png_bg">Successful message</span>
+              <!-- Classes for input-notification: success, error, information, attention -->      
+            <p>
+            <p>
+              <label>输入链接：</label>
+              <input class="text-input small-input" type="text" id="small-input" name="url" />
+              <span class="input-notification success png_bg">Successful message</span>
+              <!-- Classes for input-notification: success, error, information, attention -->      
+            <p>
+            <p>
+              <label>输入简介：</label>
+              <textarea rows="4" cols="8" name = "content"></textarea>
+              <span class="input-notification success png_bg">Successful message</span>
+            <p>
+            <p>
+              <label>输入状态码：</label>
+              <input class="text-input small-input" type="text" id="small-input" name="status" />
+              <span class="input-notification success png_bg">Successful message</span>
+              <!-- Classes for input-notification: success, error, information, attention -->      
+            <p>
+            <p>
+              <label>输入标识码：</label>
+              <input class="text-input small-input" type="text" id="small-input" name="code" />
+              <span class="input-notification success png_bg">Successful message</span>
+              <!-- Classes for input-notification: success, error, information, attention -->      
+            <p>
+
+              <input class="button" type="submit" value="Submit" />
+            </p>           
+          </form>
+      </div>
+
+<include file='Public:copyright'/>

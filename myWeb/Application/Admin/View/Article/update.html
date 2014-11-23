@@ -1,0 +1,45 @@
+<include file='Public:header'/>
+
+    <div class = "addArticle">
+		<h2>修改文章</h2>
+    <hr />
+		<form action="__URL__/doUpdate" method="post">    
+            <!-- Set class to "column-left" or "column-right" on fieldsets to divide the form into columns -->
+             <input type="text" name = "id"  value="<{$m.id}>"  style="visibility:hidden">
+            <p>
+              <label>输入标题：</label>
+              <input class="text-input small-input" type="text" value ="<{$m.title}>" id="small-input" name="title"  />
+              <span class="input-notification success png_bg">Successful message</span>
+              <!-- Classes for input-notification: success, error, information, attention -->      
+            <p>
+            <p>
+              <label>输入作者：</label>
+              <input class="text-input small-input" type="text" value ="<{$m.author}>" id="small-input" name="author" />
+              <span class="input-notification success png_bg">Successful message</span>
+              <!-- Classes for input-notification: success, error, information, attention -->      
+            <p>
+            <p>
+              <label>输入摘要：</label>
+              <input class="text-input small-input" type="text" value ="<{$m.info}>" id="small-input" name="info" />
+              <span class="input-notification success png_bg">Successful message</span>
+              <!-- Classes for input-notification: success, error, information, attention -->      
+            <p>
+            <p>
+              <label>输入内容：</label>
+              <script id="container" name="content" type="text/plain">
+                  <{$m.content}>
+              </script>  
+            <p>
+            <p>
+              <label>输入状态码：</label>
+              <input class="text-input small-input" type="text" value ="<{$m.code}>" id="small-input" name="code" />
+              <span class="input-notification success png_bg">Successful message</span>
+              <!-- Classes for input-notification: success, error, information, attention -->      
+            <p>
+
+
+              <input class="button" type="submit" value="Submit" />
+            </p>           
+          </form>
+      </div>
+<include file='Public:copyright'/>

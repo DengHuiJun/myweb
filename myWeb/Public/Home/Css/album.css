@@ -1,0 +1,80 @@
+.album_nav
+{
+	height: 36px;
+	border: 1px solid #eee;
+	margin: 5px
+}
+.photos
+{
+	padding: 20px;
+	min-height: 600px;
+	border: 1px solid #ccc;
+	margin: 5px;
+	background: #CCD1D9;
+	position: relative;
+}
+
+img{
+	padding: 10px 10px 15px;
+	background: #fff;
+	border: 1px solid #ddd;
+	position: absolute;
+	-webkit-transform:scale(0.3);
+	transform:scale(0.3);
+	-webkit-transition: 1s;
+	transition: 1s;
+	z-index: 1;
+}
+
+img:hover{
+	-webkit-transform: rotate(0deg);
+	transform:rotate(0deg);
+	-webkit-transform:scale(0.5);
+	transform:scale(0.5);
+	box-shadow: 10px 10px 15px #e8e8e8;
+	z-index: 2;
+}
+
+.pic1{
+	-webkit-transform: rotate(10deg) scale(0.3);
+	transform:rotate(10deg) scale(0.3);
+	top: -20px;
+	right:20px;
+}
+
+.pic2{
+	-webkit-transform: rotate(-20deg) scale(0.3);
+	transform:rotate(-20deg) scale(0.3);
+	top: 10px;
+	left:-50px;
+	
+}
+
+.pic3{
+	-webkit-transform: rotate(-20deg) scale(0.3);
+	transform:rotate(-20deg) scale(0.3);
+	top: -190px;
+	left: 500px;
+	
+}
+
+.pic4{
+	-webkit-transform: rotate(-45deg) scale(0.3);
+	transform:rotate(-45deg) scale(0.3);
+	top:0px;
+	left: 400px;
+	
+}
+.pic5{
+	-webkit-transform: rotate(-45deg) scale(0.3);
+	transform:rotate(-45deg) scale(0.3);
+	top:-280px;
+	left: 200px;
+}
+
+.pic10{
+	-webkit-transform: rotate(10deg) scale(0.4);
+	transform:rotate(10deg) scale(0.4);
+	top: -30px;
+	left: -30px;
+}

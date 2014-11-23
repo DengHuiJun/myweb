@@ -1,0 +1,53 @@
+.dialog
+{
+	float: left;
+	margin:10px 0;
+	width: 800px;
+	min-height: 500px;
+	background-color: #A0D468;
+	font-family: "微软雅黑"
+}
+
+.info{
+	float: right;
+	margin-top:10px;
+	width: 180px;
+	min-height:400px; 
+	font-family: "微软雅黑";
+	background-color: #FFCE54;
+	padding: 5px;
+}
+
+.info h2{
+	text-align: center;
+}
+
+.zero
+{
+	margin: 2px;
+	float: left;
+	width: 400px;
+	min-height: 30px;
+	line-height: 30px;
+	background-color: #fff;
+}
+.zero_icon
+{
+	background-color: #4A89DC;
+	width: 40px;
+	text-align: center;
+	line-height: 30px;
+}
+
+.user{
+	margin: 2px;
+	float: right;
+	width: 401px;
+	min-height: 30px;
+	line-height: 30px;
+	background-color: #fff;
+}
+.user_c
+{
+	float: right;
+}
