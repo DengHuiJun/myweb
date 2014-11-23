@@ -1,0 +1,70 @@
+.work_list
+{
+	
+	width: 738px;
+	min-height: 600px;
+	float: left;
+	border: 1px solid #ccc;
+}
+
+.work_main
+{
+	
+	margin-left:10px;
+	width: 248px;
+	min-height: 600px;
+	float: left;
+	border: 1px solid #ccc;
+}
+
+.work_list h2
+{
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	text-align: center;
+	background-color: #0c0;
+	color: #fff;
+	border-radius: 8px;
+	margin-bottom: 5px;
+}
+
+.posi
+{
+	height: 25px;
+	line-height: 25px;
+	padding-left: 30px;
+	font-size: 14px;
+	background-color: #ccc;
+}
+
+.work_list li
+{
+	list-style-type: none;
+	height: 35px;
+	line-height: 35px;
+	font-family: "微软雅黑";
+	font-size:16px;
+	border-bottom: 1px solid #ccc;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.work_list li a:link,.work_list li a:visited
+{
+	color:#000;
+	text-decoration: none;
+}
+
+.work_list li a:hover,.work_list li a:active
+{
+	color:red;
+	text-decoration: none;
+	font-size:18px;
+}
+
+.work_list li span{
+	color:#999;
+	float:right;
+}

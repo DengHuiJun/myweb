@@ -1,0 +1,48 @@
+[ 2014-08-17T14:15:03+08:00 ] 0.0.0.0 /tp_jun/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003183s ]
+SQL: SHOW COLUMNS FROM `tp_workdynamic` [ RunTime:0.010232s ]
+SQL: SELECT * FROM `tp_workdynamic` WHERE ( id<11 )  [ RunTime:0.003073s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004418s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004563s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.020381s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020561s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001083s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000882s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000765s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000921s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003982s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000941s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001039s ]
+
+[ 2014-08-17T14:15:10+08:00 ] 0.0.0.0 /tp_jun/index.php/Work/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005169s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005313s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+SQL: SHOW COLUMNS FROM `tp_workdynamic` [ RunTime:0.002880s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_workdynamic` LIMIT 1   [ RunTime:0.000889s ]
+SQL: SELECT * FROM `tp_workdynamic` ORDER BY id LIMIT 0,14   [ RunTime:0.000584s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001542s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001696s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.011821s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011991s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000633s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000505s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000318s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000523s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002235s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000554s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000632s ]
+

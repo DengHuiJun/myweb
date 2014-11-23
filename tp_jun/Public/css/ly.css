@@ -1,0 +1,184 @@
+.ly_wrap
+{
+	width: 1000px;
+	min-height: 500px;
+	margin-top: 10px;
+}
+
+.l_main
+{
+	width: 738px;
+	min-height: 500px;
+	_height: 500px;
+	border: 1px solid #ccc;
+	float:left;
+}
+
+.l_main h3
+{
+	margin: 0;
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	color: #fff;
+	background-color: #0c0;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.r_main
+{
+	width: 250px;
+	height: 590px;
+	border: 1px solid #ccc;
+	float:right;
+}
+
+
+.r_main_list h2
+{
+	margin-bottom:16px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	color: #fff;
+	background-color: #0c0;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.r_main_list li
+{
+	height: 30px;
+	line-height: 30px;
+	list-style: none;
+	padding-left: 10px;
+}
+
+.r_main_list li a
+{
+	text-decoration: none;
+	color: #000;
+	background: url("../images/li_bg.gif") no-repeat left center;
+	padding-left: 15px;
+	display: block;
+	font-size: 14px;
+}
+
+.r_main_list li a:hover
+{
+	color: #009cdf;
+	background: url("../images/li_bg2.gif") no-repeat left center;
+	background-color: #f2f2f2;
+}
+
+.other
+{
+	min-height: 470px;
+	margin-top:10px;
+	border: 1px solid #eee;
+}
+
+.posi
+{
+	height: 25px;
+	line-height: 25px;
+	padding-left: 30px;
+	font-size: 14px;
+	background-color: #ccc;
+	margin-top:-9px;
+}
+
+.view_text
+{
+	min-height: 300px;
+	margin-top: 30px;
+}
+
+.view_text h3
+{
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	background-color: #0f9;
+}
+
+.onely
+{
+	margin: 20px 30px;
+	border: 1px solid #ccc;
+	min-height:80px; 
+}
+
+.oneCss
+{
+	height: 20px;
+	line-height: 20px;
+	font-size: 14px;
+
+}
+
+.ly_t
+{
+	height: 20px;
+	line-height: 20px;
+	background-color: #ccc;
+}
+
+.ly_t .ot{
+	float: right;
+}
+
+
+.l_contact
+{
+	width:700px;
+	min-height: 500px;
+	background:#F1F1f1;
+	margin:auto;
+	padding:10px;
+	font:14px/28px "微软雅黑";
+
+}
+
+.l_contact ul
+{
+	width: 700px;
+}
+
+.l_contact ul li
+{
+	border-bottom: 1px solid #DFDFDF;
+	padding: 12px;
+	list-style-type:none;
+}
+
+.l_contact ul li label
+{
+	width: 120px;
+	display: inline-block;
+	float:left;
+
+}
+
+.l_contact ul li input[type=text]
+{
+	width: 220px;
+	height: 20px;
+	/*border: 1px solid #AAAAAA;*/
+	padding: 3px 8px;
+	background: url("../images/red_asterisk.png") no-repeat #FFF 98%;
+	/*color: #ccc;*/
+	transition:padding .25s;
+	/*border-radius: 8px;*/
+	
+}
+
+.l_contact ul li input:focus
+{
+	border-color:#C00;
+	background-image: url("../images/invalid.png");
+	padding-right: 70px;
+}

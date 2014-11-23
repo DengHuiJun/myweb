@@ -1,0 +1,27 @@
+.work_main h3
+{
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	color: #fff;
+	background-color: #0c0;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.work_main ul li
+{
+	display: block;
+	list-style-type:none;
+	height: 26px;
+	line-height: 26px;
+	text-align: center;
+	font-size: 16px;
+	border-bottom: 1px solid #ccc;
+}
+.work_main ul li a
+{
+	text-decoration: none;
+
+}

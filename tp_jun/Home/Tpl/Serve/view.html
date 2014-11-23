@@ -1,0 +1,48 @@
+<include file='Public:header'/>
+	<link href="__PUBLIC__/css/ly.css" rel="stylesheet">
+	 <div class ="ly_wrap">
+                <div class ="posi">
+                    <span>本站位置</span>&nbsp;&nbsp;&gt;&gt;&nbsp;<a href="__APP__/Index/index">首页</a>&nbsp;&nbsp;&gt;&nbsp;<a href="__APP__/Serve/index">联系我们</a>&nbsp;&nbsp;&gt;&nbsp;<a href="__APP__/Serve/view">查看留言</a>
+                </div>
+
+                <div class ="l_main">
+                    <h3>查看留言</h3>
+                    <br><hr>
+                    <volist name='data' id='vo'>
+                        <div class = "onely">
+                            <div class="ly_t">
+                            <span class = "oneCss"><strong>留言者：</strong></span><{$vo.name}>
+                            <span class = "ot"><span class = "oneCss"><strong>留言时间：</strong></span><{$vo.time}></span>
+                            </div>
+                            <span class = "oneCss"><strong>内容：</strong></span><{$vo.content}><br/>
+                            <span class = "oneCss"><strong>回复：</strong></span><span style = "color:red"><{$vo.callback}></span>
+                        </div>
+
+                    </volist>
+                    <center><span><{$page}></span></center>
+                    
+                </div>
+                <!-- l_main结束 -->
+
+                <div class ="r_main">  
+                    <div class = "r_main_list">
+                        <h2>联系我们</h2>
+                        <li><a href="__APP__/Serve/view">查看留言</a></li>
+                        <li><a href="__APP__/Serve/index">留言服务</a></li>  
+                    </div>
+
+                    <div class =  "other">  
+                       <div class = "r_main_list"> 
+                            <h2>爱我科大</h2>       
+                            <img src = "__PUBLIC__/images/s_server.jpg">
+                        </div>
+                    </div>
+                </div>
+                <!-- r_main结束 --> 
+
+    </div>
+            <!-- ly_wrap结束 -->
+
+<include file='Public:end'/>
+
+

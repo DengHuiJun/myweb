@@ -1,0 +1,22 @@
+<include file='Public:header'/>
+	<div class ="posi">
+        <span>本站位置</span>&nbsp;&nbsp;&gt;&gt;&nbsp;<a href="__APP__/Index/index">首页</a>&nbsp;&nbsp;&gt;&nbsp;<a href="__APP__/Notice/index">通知公告</a>
+    </div>
+
+	<div class = "work_list">
+			<h2>通知公告-列表</h2>
+			<ul>
+				<volist name = 'list' id = 'vo'>
+					<li><span><{$vo.time}></span><a href="__URL__/docontent/?id=<{$vo.id}>"><{$vo.title}></a></li>
+				</volist>
+			<ul>
+			<br>
+			<center><span><{$page}></span></center>
+	
+	</div>
+
+	<div class = "work_main">
+		<include file = 'Public:bar'/>
+	</div>
+
+<include file='Public:end'/>

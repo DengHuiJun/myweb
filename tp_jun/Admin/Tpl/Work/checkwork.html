@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>管理工作动态</title>	
+		<include file='Public:header'/>
+	</head>
+
+	<body>
+		<center>
+			<h1>工作动态</h1>
+			<ul>
+			<volist name = "data" id = "work">
+				<p class="with-padding bg-success"><{$work.title}><span style = "padding-right:100px;float:right"><{$work.time}>&nbsp;&nbsp;<a href="__URL__/dodel/?id=<{$work.id}>">删除</a>&nbsp;&nbsp;<a href ="__URL__/update/?id=<{$work.id}>">修改</a><span></p>
+			</volist>
+			</ul>
+			<br/>
+			<span><{$page}></span>
+		</center>
+	</body>
+</html>

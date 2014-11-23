@@ -1,0 +1,9 @@
+.photos
+{
+	height: 240px;
+	width: 340px;
+	float: left;
+	overflow: hidden;
+	margin: 13px;
+	border: 1px dotted green;
+}

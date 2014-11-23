@@ -1,0 +1,297 @@
+[ 2014-10-16T22:04:30+08:00 ] 222.243.162.61 /tp_jun/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002204s ]
+SQL: SHOW COLUMNS FROM `tp_workdynamic` [ RunTime:0.004779s ]
+SQL: SELECT * FROM `tp_workdynamic` ORDER BY time desc LIMIT 8   [ RunTime:0.001220s ]
+SQL: SHOW COLUMNS FROM `tp_education` [ RunTime:0.005126s ]
+SQL: SELECT * FROM `tp_education` ORDER BY time desc LIMIT 8   [ RunTime:0.001167s ]
+SQL: SHOW COLUMNS FROM `tp_notice` [ RunTime:0.005928s ]
+SQL: SELECT * FROM `tp_notice` ORDER BY time desc LIMIT 8   [ RunTime:0.000890s ]
+SQL: SHOW COLUMNS FROM `tp_military` [ RunTime:0.004830s ]
+SQL: SELECT * FROM `tp_military` ORDER BY time desc LIMIT 8   [ RunTime:0.000981s ]
+SQL: SHOW COLUMNS FROM `tp_photo` [ RunTime:0.004351s ]
+ERR: Table 'web_jxt.tp_photo' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_photo`
+SQL: SELECT * FROM `tp_photo`  [ RunTime:0.000511s ]
+ERR: Table 'web_jxt.tp_photo' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `tp_photo` 
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001993s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002185s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.020392s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020614s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001276s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000981s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000780s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001023s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004472s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000943s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001037s ]
+
+[ 2014-10-16T22:04:31+08:00 ] 119.147.146.189 /tp_jun/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002024s ]
+SQL: SHOW COLUMNS FROM `tp_workdynamic` [ RunTime:0.005268s ]
+SQL: SELECT * FROM `tp_workdynamic` ORDER BY time desc LIMIT 8   [ RunTime:0.000856s ]
+SQL: SHOW COLUMNS FROM `tp_education` [ RunTime:0.004678s ]
+SQL: SELECT * FROM `tp_education` ORDER BY time desc LIMIT 8   [ RunTime:0.000973s ]
+SQL: SHOW COLUMNS FROM `tp_notice` [ RunTime:0.006291s ]
+SQL: SELECT * FROM `tp_notice` ORDER BY time desc LIMIT 8   [ RunTime:0.001608s ]
+SQL: SHOW COLUMNS FROM `tp_military` [ RunTime:0.005259s ]
+SQL: SELECT * FROM `tp_military` ORDER BY time desc LIMIT 8   [ RunTime:0.001718s ]
+SQL: SHOW COLUMNS FROM `tp_photo` [ RunTime:0.004597s ]
+ERR: Table 'web_jxt.tp_photo' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_photo`
+SQL: SELECT * FROM `tp_photo`  [ RunTime:0.000428s ]
+ERR: Table 'web_jxt.tp_photo' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `tp_photo` 
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001598s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001798s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.026919s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027121s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000962s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000805s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000433s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000554s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003050s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001381s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001509s ]
+
+[ 2014-10-16T22:04:43+08:00 ] 222.243.162.61 /tp_jun/index.php/Brief/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005530s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005710s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000896s ]
+SQL: SHOW COLUMNS FROM `tp_brief` [ RunTime:0.005392s ]
+SQL: SELECT * FROM `tp_brief` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001715s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001386s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001502s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.012905s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013045s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000674s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000784s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001087s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004448s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001659s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001882s ]
+
+[ 2014-10-16T22:04:54+08:00 ] 222.243.162.61 /tp_jun/index.php/Military/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001817s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002050s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001789s ]
+SQL: SHOW COLUMNS FROM `tp_military` [ RunTime:0.004356s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_military` LIMIT 1   [ RunTime:0.003595s ]
+SQL: SELECT * FROM `tp_military` ORDER BY time desc LIMIT 0,14   [ RunTime:0.000656s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002207s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002399s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.015698s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015850s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000752s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000648s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000580s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000757s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002989s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001112s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001226s ]
+
+[ 2014-10-16T22:04:57+08:00 ] 222.243.162.61 /tp_jun/index.php/Military/docontent/?id=1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002454s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002738s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001806s ]
+SQL: SHOW COLUMNS FROM `tp_military` [ RunTime:0.002558s ]
+SQL: SELECT `content` FROM `tp_military` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000298s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001627s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001819s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.012378s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012539s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000947s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000684s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000537s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000912s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003407s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001032s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001143s ]
+
+[ 2014-10-16T22:05:04+08:00 ] 222.243.162.61 /tp_jun/index.php/Work/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005111s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005656s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002283s ]
+SQL: SHOW COLUMNS FROM `tp_workdynamic` [ RunTime:0.003872s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_workdynamic` LIMIT 1   [ RunTime:0.000283s ]
+SQL: SELECT * FROM `tp_workdynamic` ORDER BY time desc LIMIT 0,14   [ RunTime:0.000659s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001557s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001804s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.015165s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015330s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000762s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000578s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000414s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000786s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002827s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000948s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001068s ]
+
+[ 2014-10-16T22:05:06+08:00 ] 222.243.162.61 /tp_jun/index.php/Work/docontent/?id=3
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000942s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001118s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+SQL: SHOW COLUMNS FROM `tp_workdynamic` [ RunTime:0.002506s ]
+SQL: SELECT `content` FROM `tp_workdynamic` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000322s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001120s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001276s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010988s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011133s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000622s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000561s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000871s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000802s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003165s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000800s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000906s ]
+
+[ 2014-10-16T22:05:09+08:00 ] 222.243.162.61 /tp_jun/index.php/Serve/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001607s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001793s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001356s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001514s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.009713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009830s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000527s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000505s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000341s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000585s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002199s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000728s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000831s ]
+
+[ 2014-10-16T22:05:09+08:00 ] 222.243.162.61 /tp_jun/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001589s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001759s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+
+[ 2014-10-16T22:05:14+08:00 ] 222.243.162.61 /tp_jun/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001660s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001895s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001482s ]
+SQL: SHOW COLUMNS FROM `tp_workdynamic` [ RunTime:0.004271s ]
+SQL: SELECT * FROM `tp_workdynamic` ORDER BY time desc LIMIT 8   [ RunTime:0.000789s ]
+SQL: SHOW COLUMNS FROM `tp_education` [ RunTime:0.004213s ]
+SQL: SELECT * FROM `tp_education` ORDER BY time desc LIMIT 8   [ RunTime:0.000956s ]
+SQL: SHOW COLUMNS FROM `tp_notice` [ RunTime:0.003839s ]
+SQL: SELECT * FROM `tp_notice` ORDER BY time desc LIMIT 8   [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `tp_military` [ RunTime:0.003914s ]
+SQL: SELECT * FROM `tp_military` ORDER BY time desc LIMIT 8   [ RunTime:0.000576s ]
+SQL: SHOW COLUMNS FROM `tp_photo` [ RunTime:0.004970s ]
+ERR: Table 'web_jxt.tp_photo' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_photo`
+SQL: SELECT * FROM `tp_photo`  [ RunTime:0.000587s ]
+ERR: Table 'web_jxt.tp_photo' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `tp_photo` 
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001086s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001283s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.017671s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017856s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000799s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000538s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000387s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000667s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002724s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000692s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000785s ]
+
+[ 2014-10-16T22:15:56+08:00 ] 118.251.170.226 /tp_jun/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+SQL: SHOW COLUMNS FROM `tp_workdynamic` [ RunTime:0.002885s ]
+SQL: SELECT * FROM `tp_workdynamic` ORDER BY time desc LIMIT 8   [ RunTime:0.000521s ]
+SQL: SHOW COLUMNS FROM `tp_education` [ RunTime:0.003503s ]
+SQL: SELECT * FROM `tp_education` ORDER BY time desc LIMIT 8   [ RunTime:0.000542s ]
+SQL: SHOW COLUMNS FROM `tp_notice` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `tp_notice` ORDER BY time desc LIMIT 8   [ RunTime:0.000319s ]
+SQL: SHOW COLUMNS FROM `tp_military` [ RunTime:0.002814s ]
+SQL: SELECT * FROM `tp_military` ORDER BY time desc LIMIT 8   [ RunTime:0.000407s ]
+SQL: SHOW COLUMNS FROM `tp_photo` [ RunTime:0.002071s ]
+ERR: Table 'web_jxt.tp_photo' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_photo`
+SQL: SELECT * FROM `tp_photo`  [ RunTime:0.000304s ]
+ERR: Table 'web_jxt.tp_photo' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `tp_photo` 
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000766s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000872s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.013645s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013756s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000548s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000436s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000318s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000521s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002087s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000567s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000658s ]
+

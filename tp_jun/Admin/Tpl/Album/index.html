@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>test</title>
+		<link href="" rel="stylesheet">
+		<script src=""></script>
+		<include file='Public:header'/>
+        <style>
+            .picOP{
+                width: 150px;
+                height: 150px;
+                float: left;
+            }
+        </style>
+	</head>
+
+	<body>
+    <h1>管理团队风采</h1>
+    <h2>上传允许文件类型：gif png jpg 图像文件，并生成2张缩略图,生成后会删除原图。</h2>
+    <br>
+    <form action="__URL__/Upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="image" /><br>
+        <input type="submit" value="上传" /> 
+    </form>
+    <br/>
+    <h3>已经上传的图片(显示的是小图)</h3>
+    <hr/>
+    <volist name = "data" id = "pic">
+        <div class = "picOP">
+    	<!-- <img src="__UPLOAD__/s_<{$pic.image}>" />  -->
+        <img src="__UPLOAD__/s_<{$pic.image}>" width="100px" height="100px" class="img-circle" alt="">
+        <br>
+        <a href ="__URL__/dodel/?id=<{$pic.id}>">删除</a>
+        </div>
+    </volist>
+</body>
+	</body>
+</html>

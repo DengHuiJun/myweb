@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>管理国防教育</title>	
+		<include file='Public:header'/>
+	</head>
+
+	<body>
+		<center>
+			<h1>国防教育</h1>
+			<ul>
+			<volist name = "data" id = "edu">
+				<p class="with-padding bg-success"><{$edu.title}><span style = "padding-right:100px;float:right"><{$edu.time}>&nbsp;&nbsp;<a href="__URL__/dodel/?id=<{$edu.id}>">删除</a>&nbsp;&nbsp;<a href ="__URL__/update/?id=<{$edu.id}>">修改</a><span></p>
+			</volist>
+			</ul>
+			<br/>
+			<span><{$page}></span>
+		</center>
+	</body>
+</html>

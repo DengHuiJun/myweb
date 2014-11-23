@@ -1,0 +1,17 @@
+[ 2014-08-08T08:50:03+08:00 ] 0.0.0.0 /tp_jun/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002619s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.009271s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009413s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000845s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000745s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000769s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000755s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003380s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001287s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001451s ]
+

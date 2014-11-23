@@ -1,0 +1,1437 @@
+[ 2014-09-05T10:42:33+08:00 ] 0.0.0.0 /tp_jun/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002019s ]
+SQL: SHOW COLUMNS FROM `tp_workdynamic` [ RunTime:0.009276s ]
+SQL: SELECT * FROM `tp_workdynamic` ORDER BY time LIMIT 8   [ RunTime:0.001111s ]
+SQL: SHOW COLUMNS FROM `tp_education` [ RunTime:0.005244s ]
+SQL: SELECT * FROM `tp_education` ORDER BY time LIMIT 8   [ RunTime:0.001276s ]
+SQL: SHOW COLUMNS FROM `tp_notice` [ RunTime:0.005457s ]
+SQL: SELECT * FROM `tp_notice` ORDER BY time LIMIT 8   [ RunTime:0.000707s ]
+SQL: SHOW COLUMNS FROM `tp_military` [ RunTime:0.004921s ]
+SQL: SELECT * FROM `tp_military` ORDER BY time LIMIT 8   [ RunTime:0.001051s ]
+SQL: SHOW COLUMNS FROM `tp_photo` [ RunTime:0.004796s ]
+SQL: SELECT * FROM `tp_photo`  [ RunTime:0.000316s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001442s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001570s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.025521s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025661s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001315s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001092s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001020s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001035s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004833s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001162s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001302s ]
+
+[ 2014-09-05T10:42:41+08:00 ] 0.0.0.0 /tp_jun/index.php/Album/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005126s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005326s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+SQL: SHOW COLUMNS FROM `tp_photo` [ RunTime:0.005799s ]
+SQL: SELECT * FROM `tp_photo`  [ RunTime:0.000292s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001015s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001141s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010782s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010950s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000750s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001174s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000393s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000528s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003141s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000596s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000679s ]
+
+[ 2014-09-05T10:42:56+08:00 ] 0.0.0.0 /tp_jun/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000790s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000898s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+SQL: SHOW COLUMNS FROM `tp_workdynamic` [ RunTime:0.002785s ]
+SQL: SELECT * FROM `tp_workdynamic` ORDER BY time LIMIT 8   [ RunTime:0.000572s ]
+SQL: SHOW COLUMNS FROM `tp_education` [ RunTime:0.002727s ]
+SQL: SELECT * FROM `tp_education` ORDER BY time LIMIT 8   [ RunTime:0.000613s ]
+SQL: SHOW COLUMNS FROM `tp_notice` [ RunTime:0.002593s ]
+SQL: SELECT * FROM `tp_notice` ORDER BY time LIMIT 8   [ RunTime:0.000608s ]
+SQL: SHOW COLUMNS FROM `tp_military` [ RunTime:0.002648s ]
+SQL: SELECT * FROM `tp_military` ORDER BY time LIMIT 8   [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `tp_photo` [ RunTime:0.002311s ]
+SQL: SELECT * FROM `tp_photo`  [ RunTime:0.000226s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000806s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000930s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.018970s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019092s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000583s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000475s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000333s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000513s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002164s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000613s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000693s ]
+
+[ 2014-09-05T10:45:41+08:00 ] 0.0.0.0 /tp_jun/index.php/Album/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000862s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000975s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+SQL: SHOW COLUMNS FROM `tp_photo` [ RunTime:0.002896s ]
+SQL: SELECT * FROM `tp_photo`  [ RunTime:0.000482s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001479s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001601s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.008299s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008405s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000519s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000451s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000366s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000560s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002164s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000932s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001052s ]
+
+[ 2014-09-05T10:53:50+08:00 ] 0.0.0.0 /tp_jun/index.php/Album/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000947s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001073s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+SQL: SHOW COLUMNS FROM `tp_photofc` [ RunTime:0.003491s ]
+SQL: SELECT * FROM `tp_photofc`  [ RunTime:0.000293s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001301s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001484s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.009886s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010017s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000653s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000631s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000478s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000643s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002675s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000772s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000904s ]
+
+[ 2014-09-05T10:53:52+08:00 ] 0.0.0.0 /tp_jun/index.php/Album/slzx
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000841s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000949s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000750s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000853s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data C:\wamp\www\tp_jun\Home\Runtime\Cache\f2e2102caf63956b34039322d543b0d0.php 第 51 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.009199s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009302s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000645s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000864s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000858s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000788s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003569s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000716s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000805s ]
+
+[ 2014-09-05T10:54:59+08:00 ] 0.0.0.0 /tp_jun/index.php/Album/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001148s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001297s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+SQL: SHOW COLUMNS FROM `tp_photofc` [ RunTime:0.003164s ]
+SQL: SELECT * FROM `tp_photofc`  [ RunTime:0.000344s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001426s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001610s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.009468s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009598s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000598s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000560s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000474s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000654s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002598s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000721s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000811s ]
+
+[ 2014-09-05T10:58:34+08:00 ] 0.0.0.0 /tp_jun/index.php/Album/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000952s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001099s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000945s ]
+SQL: SHOW COLUMNS FROM `tp_photofc` [ RunTime:0.002598s ]
+SQL: SELECT * FROM `tp_photofc`  [ RunTime:0.000231s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001165s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001288s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.012738s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012873s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000723s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000687s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000530s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000768s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003041s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000932s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001039s ]
+
+[ 2014-09-05T10:58:36+08:00 ] 0.0.0.0 /tp_jun/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000795s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000909s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+SQL: SHOW COLUMNS FROM `tp_workdynamic` [ RunTime:0.002704s ]
+SQL: SELECT * FROM `tp_workdynamic` ORDER BY time LIMIT 8   [ RunTime:0.000514s ]
+SQL: SHOW COLUMNS FROM `tp_education` [ RunTime:0.002914s ]
+SQL: SELECT * FROM `tp_education` ORDER BY time LIMIT 8   [ RunTime:0.000519s ]
+SQL: SHOW COLUMNS FROM `tp_notice` [ RunTime:0.002571s ]
+SQL: SELECT * FROM `tp_notice` ORDER BY time LIMIT 8   [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `tp_military` [ RunTime:0.003090s ]
+SQL: SELECT * FROM `tp_military` ORDER BY time LIMIT 8   [ RunTime:0.000448s ]
+SQL: SHOW COLUMNS FROM `tp_photo` [ RunTime:0.002497s ]
+ERR: Table 'web_jxt.tp_photo' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_photo`
+SQL: SELECT * FROM `tp_photo`  [ RunTime:0.000515s ]
+ERR: Table 'web_jxt.tp_photo' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `tp_photo` 
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001096s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001248s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.016017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016138s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000562s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000430s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000352s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002065s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000604s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000683s ]
+
+[ 2014-09-05T10:58:37+08:00 ] 0.0.0.0 /tp_jun/index.php/Album/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000653s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001719s ]
+SQL: SHOW COLUMNS FROM `tp_photofc` [ RunTime:0.002743s ]
+SQL: SELECT * FROM `tp_photofc`  [ RunTime:0.000265s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000821s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000943s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.011308s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011456s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000405s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000366s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000260s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001725s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000527s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000608s ]
+
+[ 2014-09-05T10:58:39+08:00 ] 0.0.0.0 /tp_jun/index.php/Album/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000614s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+SQL: SHOW COLUMNS FROM `tp_photofc` [ RunTime:0.002788s ]
+SQL: SELECT * FROM `tp_photofc`  [ RunTime:0.000229s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000561s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000663s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.008847s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008960s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000408s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000536s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000360s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000551s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002140s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000607s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000709s ]
+
+[ 2014-09-05T10:58:40+08:00 ] 0.0.0.0 /tp_jun/index.php/Album/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001697s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001820s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+SQL: SHOW COLUMNS FROM `tp_photofc` [ RunTime:0.002683s ]
+SQL: SELECT * FROM `tp_photofc`  [ RunTime:0.000245s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000572s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000702s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010129s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000411s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000400s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000264s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000472s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001784s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000503s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000585s ]
+
+[ 2014-09-05T10:58:42+08:00 ] 0.0.0.0 /tp_jun/index.php/Album/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000650s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+SQL: SHOW COLUMNS FROM `tp_photofc` [ RunTime:0.002743s ]
+SQL: SELECT * FROM `tp_photofc`  [ RunTime:0.000220s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000557s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000658s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.009402s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009529s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000565s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000441s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000268s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000473s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002065s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000511s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000594s ]
+
+[ 2014-09-05T10:58:43+08:00 ] 0.0.0.0 /tp_jun/index.php/Album/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000747s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000868s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+SQL: SHOW COLUMNS FROM `tp_photofc` [ RunTime:0.002584s ]
+SQL: SELECT * FROM `tp_photofc`  [ RunTime:0.000317s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000655s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000812s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010972s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011176s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000777s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000594s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000311s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000726s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002760s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000872s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001023s ]
+
+[ 2014-09-05T10:58:43+08:00 ] 0.0.0.0 /tp_jun/index.php/Album/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000845s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001016s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+SQL: SHOW COLUMNS FROM `tp_photofc` [ RunTime:0.002781s ]
+SQL: SELECT * FROM `tp_photofc`  [ RunTime:0.000324s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000550s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000655s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010925s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011143s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000467s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000432s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000299s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000503s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001977s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000575s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000665s ]
+
+[ 2014-09-05T10:58:45+08:00 ] 0.0.0.0 /tp_jun/index.php/Album/slzx
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000622s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000493s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000583s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data C:\wamp\www\tp_jun\Home\Runtime\Cache\f2e2102caf63956b34039322d543b0d0.php 第 51 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.008671s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008763s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000398s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000364s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000292s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000452s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001772s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000508s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000588s ]
+
+[ 2014-09-05T10:58:46+08:00 ] 0.0.0.0 /tp_jun/index.php/Album/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000731s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+SQL: SHOW COLUMNS FROM `tp_photofc` [ RunTime:0.003632s ]
+SQL: SELECT * FROM `tp_photofc`  [ RunTime:0.000267s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000602s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000718s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.008572s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008692s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000429s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000370s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000314s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000435s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001783s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000529s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000610s ]
+
+[ 2014-09-05T10:59:27+08:00 ] 0.0.0.0 /tp_jun/index.php/Album/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001063s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001255s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+SQL: SHOW COLUMNS FROM `tp_photofc` [ RunTime:0.003149s ]
+SQL: SELECT * FROM `tp_photofc`  [ RunTime:0.000257s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000570s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000701s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.011970s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012119s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000459s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000448s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000297s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000510s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001977s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000604s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000697s ]
+
+[ 2014-09-05T10:59:28+08:00 ] 0.0.0.0 /tp_jun/index.php/Album/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000829s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000962s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+SQL: SHOW COLUMNS FROM `tp_photofc` [ RunTime:0.004317s ]
+SQL: SELECT * FROM `tp_photofc`  [ RunTime:0.000263s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000533s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000637s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.008983s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009174s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000803s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000453s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000312s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002393s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000580s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000683s ]
+
+[ 2014-09-05T10:59:29+08:00 ] 0.0.0.0 /tp_jun/index.php/Album/jctp
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000677s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000781s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000511s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000602s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data C:\wamp\www\tp_jun\Home\Runtime\Cache\0568d8b11699877b687fb952ebf9f7fc.php 第 51 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.011175s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011295s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000718s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000962s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000433s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000535s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003051s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000488s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000592s ]
+
+[ 2014-09-05T10:59:30+08:00 ] 0.0.0.0 /tp_jun/index.php/Album/slzx
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000831s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001028s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000454s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000560s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data C:\wamp\www\tp_jun\Home\Runtime\Cache\f2e2102caf63956b34039322d543b0d0.php 第 51 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.009843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000811s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000763s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000406s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000491s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002860s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000559s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000641s ]
+
+[ 2014-09-05T10:59:31+08:00 ] 0.0.0.0 /tp_jun/index.php/Album/jctp
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000812s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000936s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000535s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000655s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data C:\wamp\www\tp_jun\Home\Runtime\Cache\0568d8b11699877b687fb952ebf9f7fc.php 第 51 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.011220s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011364s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000757s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000421s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000335s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000561s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002423s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000620s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000726s ]
+
+[ 2014-09-05T10:59:31+08:00 ] 0.0.0.0 /tp_jun/index.php/Album/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000839s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000969s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+SQL: SHOW COLUMNS FROM `tp_photofc` [ RunTime:0.002747s ]
+SQL: SELECT * FROM `tp_photofc`  [ RunTime:0.000251s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000702s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000837s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010449s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010628s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000492s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000380s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000333s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000485s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002004s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000818s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000928s ]
+
+[ 2014-09-05T10:59:32+08:00 ] 0.0.0.0 /tp_jun/index.php/Album/slzx
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001116s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001335s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000951s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000627s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000782s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data C:\wamp\www\tp_jun\Home\Runtime\Cache\f2e2102caf63956b34039322d543b0d0.php 第 51 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.011852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011981s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000468s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000426s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000303s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000507s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001974s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000569s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000660s ]
+
+[ 2014-09-05T10:59:32+08:00 ] 0.0.0.0 /tp_jun/index.php/Album/jctp
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001190s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001403s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001664s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000566s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000675s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data C:\wamp\www\tp_jun\Home\Runtime\Cache\0568d8b11699877b687fb952ebf9f7fc.php 第 51 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.013343s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013542s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000451s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000301s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000541s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002605s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000907s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001074s ]
+
+[ 2014-09-05T10:59:33+08:00 ] 0.0.0.0 /tp_jun/index.php/Album/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000749s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000868s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+SQL: SHOW COLUMNS FROM `tp_photofc` [ RunTime:0.003478s ]
+SQL: SELECT * FROM `tp_photofc`  [ RunTime:0.000300s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000596s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000745s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.012933s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013058s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000497s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000443s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000310s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000536s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002085s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000607s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000702s ]
+
+[ 2014-09-05T10:59:33+08:00 ] 0.0.0.0 /tp_jun/index.php/Album/jctp
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000779s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000932s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000599s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000710s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data C:\wamp\www\tp_jun\Home\Runtime\Cache\0568d8b11699877b687fb952ebf9f7fc.php 第 51 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.011296s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011472s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000666s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000643s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000428s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000808s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003032s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000821s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000986s ]
+
+[ 2014-09-05T10:59:33+08:00 ] 0.0.0.0 /tp_jun/index.php/Album/slzx
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001376s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001612s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001202s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000730s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000916s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data C:\wamp\www\tp_jun\Home\Runtime\Cache\f2e2102caf63956b34039322d543b0d0.php 第 51 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.013092s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013233s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000487s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000654s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000610s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000536s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002633s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000579s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000683s ]
+
+[ 2014-09-05T10:59:34+08:00 ] 0.0.0.0 /tp_jun/index.php/Album/jctp
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000758s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000881s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000542s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000649s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data C:\wamp\www\tp_jun\Home\Runtime\Cache\0568d8b11699877b687fb952ebf9f7fc.php 第 51 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.009859s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009965s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000675s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000760s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000551s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000760s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003209s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000861s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001017s ]
+
+[ 2014-09-05T10:59:34+08:00 ] 0.0.0.0 /tp_jun/index.php/Album/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001087s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001249s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+SQL: SHOW COLUMNS FROM `tp_photofc` [ RunTime:0.003185s ]
+SQL: SELECT * FROM `tp_photofc`  [ RunTime:0.000229s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000560s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000664s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.011105s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011268s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000655s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000758s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000499s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000874s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003260s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000955s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001128s ]
+
+[ 2014-09-05T10:59:35+08:00 ] 0.0.0.0 /tp_jun/index.php/Album/slzx
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000821s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000943s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000503s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000627s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data C:\wamp\www\tp_jun\Home\Runtime\Cache\f2e2102caf63956b34039322d543b0d0.php 第 51 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.011206s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011322s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000487s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000440s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000308s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000523s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002023s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000604s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000697s ]
+
+[ 2014-09-05T10:59:35+08:00 ] 0.0.0.0 /tp_jun/index.php/Album/jctp
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000830s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000962s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000558s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000686s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data C:\wamp\www\tp_jun\Home\Runtime\Cache\0568d8b11699877b687fb952ebf9f7fc.php 第 51 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.014491s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014625s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000604s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000390s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000267s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000472s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000522s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000602s ]
+
+[ 2014-09-05T10:59:35+08:00 ] 0.0.0.0 /tp_jun/index.php/Album/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000754s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000868s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+SQL: SHOW COLUMNS FROM `tp_photofc` [ RunTime:0.003186s ]
+SQL: SELECT * FROM `tp_photofc`  [ RunTime:0.000289s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000513s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000605s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.008783s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008896s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000476s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000391s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000292s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000483s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001896s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000633s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000728s ]
+
+[ 2014-09-05T10:59:36+08:00 ] 0.0.0.0 /tp_jun/index.php/Album/jctp
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000660s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000766s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000575s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000690s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data C:\wamp\www\tp_jun\Home\Runtime\Cache\0568d8b11699877b687fb952ebf9f7fc.php 第 51 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.008398s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008491s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000397s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000431s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000331s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000925s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002399s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000754s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000877s ]
+
+[ 2014-09-05T10:59:36+08:00 ] 0.0.0.0 /tp_jun/index.php/Album/slzx
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000865s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000970s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000470s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000579s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data C:\wamp\www\tp_jun\Home\Runtime\Cache\f2e2102caf63956b34039322d543b0d0.php 第 51 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.009756s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009844s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000399s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000417s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000268s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000528s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001857s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000619s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000718s ]
+
+[ 2014-09-05T10:59:39+08:00 ] 0.0.0.0 /tp_jun/index.php/Work/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000700s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000808s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+SQL: SHOW COLUMNS FROM `tp_workdynamic` [ RunTime:0.003182s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_workdynamic` LIMIT 1   [ RunTime:0.000697s ]
+SQL: SELECT * FROM `tp_workdynamic` ORDER BY id LIMIT 0,14   [ RunTime:0.000689s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001266s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001444s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.011176s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011283s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000544s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000389s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000271s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000555s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002046s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000592s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000673s ]
+
+[ 2014-09-05T10:59:40+08:00 ] 0.0.0.0 /tp_jun/index.php/Album/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000905s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001052s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+SQL: SHOW COLUMNS FROM `tp_photofc` [ RunTime:0.002631s ]
+SQL: SELECT * FROM `tp_photofc`  [ RunTime:0.000253s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000748s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000897s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.009368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009489s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000432s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000453s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000339s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000663s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002163s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000571s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000655s ]
+
+[ 2014-09-05T10:59:40+08:00 ] 0.0.0.0 /tp_jun/index.php/Education/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000658s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000766s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+SQL: SHOW COLUMNS FROM `tp_education` [ RunTime:0.002920s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_education` LIMIT 1   [ RunTime:0.000248s ]
+SQL: SELECT * FROM `tp_education` ORDER BY id LIMIT 0,14   [ RunTime:0.000436s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001091s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001230s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010259s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010366s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000447s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000371s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000270s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000474s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001793s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000514s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000596s ]
+
+[ 2014-09-05T10:59:41+08:00 ] 0.0.0.0 /tp_jun/index.php/Military/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000712s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000826s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+SQL: SHOW COLUMNS FROM `tp_military` [ RunTime:0.002802s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_military` LIMIT 1   [ RunTime:0.000219s ]
+SQL: SELECT * FROM `tp_military` ORDER BY id LIMIT 0,14   [ RunTime:0.000407s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000790s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000888s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010178s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010290s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000455s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000374s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000300s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001803s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000560s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000641s ]
+
+[ 2014-09-05T10:59:41+08:00 ] 0.0.0.0 /tp_jun/index.php/Brief/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001093s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001212s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000736s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000832s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.007467s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007587s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000495s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000534s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000329s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000479s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002106s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000509s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000589s ]
+
+[ 2014-09-05T10:59:42+08:00 ] 0.0.0.0 /tp_jun/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000885s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001029s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+SQL: SHOW COLUMNS FROM `tp_workdynamic` [ RunTime:0.002741s ]
+SQL: SELECT * FROM `tp_workdynamic` ORDER BY time LIMIT 8   [ RunTime:0.000882s ]
+SQL: SHOW COLUMNS FROM `tp_education` [ RunTime:0.002911s ]
+SQL: SELECT * FROM `tp_education` ORDER BY time LIMIT 8   [ RunTime:0.000498s ]
+SQL: SHOW COLUMNS FROM `tp_notice` [ RunTime:0.002688s ]
+SQL: SELECT * FROM `tp_notice` ORDER BY time LIMIT 8   [ RunTime:0.000302s ]
+SQL: SHOW COLUMNS FROM `tp_military` [ RunTime:0.002675s ]
+SQL: SELECT * FROM `tp_military` ORDER BY time LIMIT 8   [ RunTime:0.000397s ]
+SQL: SHOW COLUMNS FROM `tp_photo` [ RunTime:0.002586s ]
+ERR: Table 'web_jxt.tp_photo' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_photo`
+SQL: SELECT * FROM `tp_photo`  [ RunTime:0.000311s ]
+ERR: Table 'web_jxt.tp_photo' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `tp_photo` 
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000535s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000639s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.015980s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016129s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000511s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000593s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000461s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002443s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000539s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000621s ]
+
+[ 2014-09-05T10:59:55+08:00 ] 0.0.0.0 /tp_jun/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000928s ]
+SQL: SHOW COLUMNS FROM `tp_workdynamic` [ RunTime:0.002752s ]
+SQL: SELECT * FROM `tp_workdynamic` ORDER BY time LIMIT 8   [ RunTime:0.000690s ]
+SQL: SHOW COLUMNS FROM `tp_education` [ RunTime:0.002631s ]
+SQL: SELECT * FROM `tp_education` ORDER BY time LIMIT 8   [ RunTime:0.000552s ]
+SQL: SHOW COLUMNS FROM `tp_notice` [ RunTime:0.003155s ]
+SQL: SELECT * FROM `tp_notice` ORDER BY time LIMIT 8   [ RunTime:0.000308s ]
+SQL: SHOW COLUMNS FROM `tp_military` [ RunTime:0.002872s ]
+SQL: SELECT * FROM `tp_military` ORDER BY time LIMIT 8   [ RunTime:0.000430s ]
+SQL: SHOW COLUMNS FROM `tp_photo` [ RunTime:0.002602s ]
+ERR: Table 'web_jxt.tp_photo' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_photo`
+SQL: SELECT * FROM `tp_photo`  [ RunTime:0.000332s ]
+ERR: Table 'web_jxt.tp_photo' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `tp_photo` 
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001557s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001691s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.017221s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017344s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000744s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000655s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000433s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000580s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002707s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000708s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000793s ]
+
+[ 2014-09-05T11:14:57+08:00 ] 0.0.0.0 /tp_jun/index.php/Album/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000781s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000919s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+SQL: SHOW COLUMNS FROM `tp_photofc` [ RunTime:0.003088s ]
+SQL: SELECT * FROM `tp_photofc`  [ RunTime:0.000256s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000846s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001053s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010261s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010406s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000430s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000370s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000260s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001752s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000666s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000748s ]
+
+[ 2014-09-05T11:15:02+08:00 ] 0.0.0.0 /tp_jun/index.php/Album/slzx
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000640s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000748s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000490s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000605s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data C:\wamp\www\tp_jun\Home\Runtime\Cache\f2e2102caf63956b34039322d543b0d0.php 第 51 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.009160s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009251s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000395s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000402s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000260s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000462s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001744s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000582s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000663s ]
+
+[ 2014-09-05T11:15:03+08:00 ] 0.0.0.0 /tp_jun/index.php/Album/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000611s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000715s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+SQL: SHOW COLUMNS FROM `tp_photofc` [ RunTime:0.002524s ]
+SQL: SELECT * FROM `tp_photofc`  [ RunTime:0.000245s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000595s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000686s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.008949s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009057s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000435s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000367s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000259s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000454s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001747s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000692s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000792s ]
+
+[ 2014-09-05T11:15:04+08:00 ] 0.0.0.0 /tp_jun/index.php/Album/slzx
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000901s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001038s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000553s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000658s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data C:\wamp\www\tp_jun\Home\Runtime\Cache\f2e2102caf63956b34039322d543b0d0.php 第 51 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.009700s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009819s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000449s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000429s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000290s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000521s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002108s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001262s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001397s ]
+
+[ 2014-09-05T11:15:05+08:00 ] 0.0.0.0 /tp_jun/index.php/Album/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000927s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001122s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+SQL: SHOW COLUMNS FROM `tp_photofc` [ RunTime:0.002647s ]
+SQL: SELECT * FROM `tp_photofc`  [ RunTime:0.000256s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000747s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000841s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.009138s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009243s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000507s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000568s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000335s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000511s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002209s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000826s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000943s ]
+
+[ 2014-09-05T11:15:06+08:00 ] 0.0.0.0 /tp_jun/index.php/Album/jctp
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000767s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000896s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000500s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000591s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data C:\wamp\www\tp_jun\Home\Runtime\Cache\0568d8b11699877b687fb952ebf9f7fc.php 第 51 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.008919s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009009s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000486s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000470s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000292s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000610s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002129s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000764s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000866s ]
+
+[ 2014-09-05T11:15:06+08:00 ] 0.0.0.0 /tp_jun/index.php/Album/slzx
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000684s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000804s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000476s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000568s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data C:\wamp\www\tp_jun\Home\Runtime\Cache\f2e2102caf63956b34039322d543b0d0.php 第 51 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.010290s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010385s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000413s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000399s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000292s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000619s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002021s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000692s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000791s ]
+
+[ 2014-09-05T11:15:07+08:00 ] 0.0.0.0 /tp_jun/index.php/Album/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000792s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000917s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+SQL: SHOW COLUMNS FROM `tp_photofc` [ RunTime:0.002434s ]
+SQL: SELECT * FROM `tp_photofc`  [ RunTime:0.000378s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000780s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000896s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.009804s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009924s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000505s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000437s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000317s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000551s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002125s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000827s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000935s ]
+
+[ 2014-09-05T11:15:07+08:00 ] 0.0.0.0 /tp_jun/index.php/Album/jctp
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001188s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001575s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000594s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000714s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data C:\wamp\www\tp_jun\Home\Runtime\Cache\0568d8b11699877b687fb952ebf9f7fc.php 第 51 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.010433s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010563s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000622s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000475s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000298s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000837s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002646s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000692s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000797s ]
+
+[ 2014-09-05T11:15:08+08:00 ] 0.0.0.0 /tp_jun/index.php/Album/slzx
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001094s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001298s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000558s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000662s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data C:\wamp\www\tp_jun\Home\Runtime\Cache\f2e2102caf63956b34039322d543b0d0.php 第 51 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.009214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009317s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000466s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000476s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000377s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000646s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002263s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001393s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001502s ]
+
+[ 2014-09-05T11:15:09+08:00 ] 0.0.0.0 /tp_jun/index.php/Album/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000830s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000955s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000887s ]
+SQL: SHOW COLUMNS FROM `tp_photofc` [ RunTime:0.002903s ]
+SQL: SELECT * FROM `tp_photofc`  [ RunTime:0.000255s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000714s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000838s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010667s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010800s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000505s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000428s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000302s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000520s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002055s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000720s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000814s ]
+
+[ 2014-09-05T11:15:09+08:00 ] 0.0.0.0 /tp_jun/index.php/Album/jctp
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000767s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000901s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000657s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000810s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data C:\wamp\www\tp_jun\Home\Runtime\Cache\0568d8b11699877b687fb952ebf9f7fc.php 第 51 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.009315s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009493s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000640s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000466s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000344s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000464s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002245s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000633s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000717s ]
+
+[ 2014-09-05T11:15:10+08:00 ] 0.0.0.0 /tp_jun/index.php/Album/slzx
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001302s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001540s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000509s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000608s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data C:\wamp\www\tp_jun\Home\Runtime\Cache\f2e2102caf63956b34039322d543b0d0.php 第 51 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.009529s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009630s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000452s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000421s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000287s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000526s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001951s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001071s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001261s ]
+
+[ 2014-09-05T11:37:02+08:00 ] 0.0.0.0 /tp_jun/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000880s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000998s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+SQL: SHOW COLUMNS FROM `tp_workdynamic` [ RunTime:0.003060s ]
+SQL: SELECT * FROM `tp_workdynamic` ORDER BY time LIMIT 8   [ RunTime:0.000752s ]
+SQL: SHOW COLUMNS FROM `tp_education` [ RunTime:0.003145s ]
+SQL: SELECT * FROM `tp_education` ORDER BY time LIMIT 8   [ RunTime:0.000650s ]
+SQL: SHOW COLUMNS FROM `tp_notice` [ RunTime:0.003369s ]
+SQL: SELECT * FROM `tp_notice` ORDER BY time LIMIT 8   [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `tp_military` [ RunTime:0.003270s ]
+SQL: SELECT * FROM `tp_military` ORDER BY time LIMIT 8   [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `tp_photo` [ RunTime:0.002292s ]
+ERR: Table 'web_jxt.tp_photo' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_photo`
+SQL: SELECT * FROM `tp_photo`  [ RunTime:0.000377s ]
+ERR: Table 'web_jxt.tp_photo' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `tp_photo` 
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001325s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001433s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.021017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021131s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001011s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000674s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000488s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003096s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000697s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000776s ]
+

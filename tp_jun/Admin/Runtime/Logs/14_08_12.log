@@ -1,0 +1,883 @@
+[ 2014-08-12T18:41:55+08:00 ] 0.0.0.0 /tp_jun/admin.php/Login/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001382s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001530s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001183s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001836s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001972s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010988s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011132s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001079s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000937s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000854s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000969s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004100s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001084s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001167s ]
+
+[ 2014-08-12T18:41:55+08:00 ] 0.0.0.0 /tp_jun/admin.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001316s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001446s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001267s ]
+
+[ 2014-08-12T18:42:17+08:00 ] 0.0.0.0 /tp_jun/admin.php/Public/code?function%20random()%20{%20[native%20code]%20}
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001294s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001468s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001387s ]
+
+[ 2014-08-12T18:42:22+08:00 ] 0.0.0.0 /tp_jun/admin.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002155s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002316s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001482s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.002566s ]
+SQL: SELECT `id` FROM `tp_manager` WHERE ( `username` = 'dh' ) AND ( `password` = '123' ) LIMIT 1   [ RunTime:0.000810s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001853s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001976s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010419s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010607s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001018s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000997s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000849s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001576s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004793s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001303s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001389s ]
+
+[ 2014-08-12T18:42:23+08:00 ] 0.0.0.0 /tp_jun/admin.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002672s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002952s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002415s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.006232s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006499s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.021606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021925s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001925s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002137s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001599s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008239s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002453s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002617s ]
+
+[ 2014-08-12T18:42:23+08:00 ] 0.0.0.0 /tp_jun/admin.php/Index/content
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003706s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004070s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001375s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003180s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003814s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.013668s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013898s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001798s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001102s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000874s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001068s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005136s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001134s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001226s ]
+
+[ 2014-08-12T18:42:25+08:00 ] 0.0.0.0 /tp_jun/admin.php/LiuYan/checkMessage
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001178s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001311s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001076s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.002550s ]
+SQL: SELECT * FROM `tp_message`  [ RunTime:0.000311s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005701s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005857s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.011226s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011361s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000927s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000904s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000796s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000963s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003842s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001043s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001126s ]
+
+[ 2014-08-12T18:42:29+08:00 ] 0.0.0.0 /tp_jun/admin.php/LiuYan/checkMessage
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001166s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001280s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001378s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.002774s ]
+SQL: SELECT * FROM `tp_message`  [ RunTime:0.000274s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001836s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001955s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010620s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010811s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001263s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000971s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000807s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000961s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004277s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001232s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001320s ]
+
+[ 2014-08-12T18:42:32+08:00 ] 0.0.0.0 /tp_jun/admin.php/Index/workDynamic
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001152s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001260s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001065s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001412s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001549s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.009356s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009477s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000915s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000902s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000794s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003884s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001041s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001121s ]
+
+[ 2014-08-12T18:42:34+08:00 ] 0.0.0.0 /tp_jun/admin.php/Work/addwork
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001158s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001265s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001077s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002456s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002610s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010269s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010441s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001031s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000891s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000789s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000955s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003912s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001021s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001101s ]
+
+[ 2014-08-12T18:53:39+08:00 ] 0.0.0.0 /tp_jun/admin.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003043s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003428s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005049s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004791s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005299s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.027660s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028135s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001918s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002131s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000840s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000790s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006243s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001816s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002015s ]
+
+[ 2014-08-12T18:53:40+08:00 ] 0.0.0.0 /tp_jun/admin.php/Index/content
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001059s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001266s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001945s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000797s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001069s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.011026s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011326s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000430s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000406s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000315s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000470s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001862s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000577s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000655s ]
+
+[ 2014-08-12T18:53:42+08:00 ] 0.0.0.0 /tp_jun/admin.php/Work/addwork
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000833s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000962s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000557s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000662s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006328s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006516s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000521s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000418s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000295s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000482s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002015s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000574s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000667s ]
+
+[ 2014-08-12T18:56:36+08:00 ] 0.0.0.0 /tp_jun/admin.php/Index/workDynamic
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000920s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001038s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000683s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000814s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006726s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006868s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000545s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000530s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000416s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000609s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002333s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000685s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000772s ]
+
+[ 2014-08-12T18:56:37+08:00 ] 0.0.0.0 /tp_jun/admin.php/Work/addwork
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000953s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001067s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000740s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000699s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000795s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006482s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000539s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000492s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000443s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000584s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002288s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000663s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000759s ]
+
+[ 2014-08-12T19:02:09+08:00 ] 0.0.0.0 /tp_jun/admin.php/Work/addwork
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000941s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001064s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000859s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000839s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000945s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006651s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006766s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000510s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000770s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000462s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000591s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002587s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000672s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000751s ]
+
+[ 2014-08-12T19:02:16+08:00 ] 0.0.0.0 /tp_jun/admin.php/Work/doadd
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000818s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000939s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+SQL: SHOW COLUMNS FROM `tp_workdynamic` [ RunTime:0.002504s ]
+SQL: INSERT INTO `tp_workdynamic` (`title`,`author`,`content`) VALUES ('asd','dsa','<p>\r\n		&nbsp; &nbsp; &nbsp; &nbsp; 这asdasd 里写你的初始化内容\r\n		 &nbsp; &nbsp;	</p>') [ RunTime:0.000494s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000898s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006785s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006890s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000541s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000493s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000444s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000584s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002293s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000790s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000888s ]
+
+[ 2014-08-12T19:02:17+08:00 ] 0.0.0.0 /tp_jun/admin.php/Work/addwork
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002486s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002816s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003616s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002448s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002756s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.023652s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024009s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001681s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001649s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001395s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002029s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007528s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002687s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003061s ]
+
+[ 2014-08-12T19:04:37+08:00 ] 0.0.0.0 /tp_jun/admin.php/Work/addwork
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000806s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000910s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000757s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000857s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006730s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006884s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000583s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000489s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000354s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000566s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002244s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000621s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000701s ]
+
+[ 2014-08-12T19:04:54+08:00 ] 0.0.0.0 /tp_jun/admin.php/Work/doadd
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000759s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000870s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+SQL: SHOW COLUMNS FROM `tp_workdynamic` [ RunTime:0.002730s ]
+SQL: INSERT INTO `tp_workdynamic` (`title`,`author`,`content`,`time`) VALUES ('测试1','测试2','<p>\r\n		&nbsp; &nbsp; &nbsp; &nbsp; 这里写你的初始化内容 &nbsp; &nbsp; &nbsp; 的大</p>','2014-8-12') [ RunTime:0.000297s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001291s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001427s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.007170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007281s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000455s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000501s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000360s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000555s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002102s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000649s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000728s ]
+
+[ 2014-08-12T19:04:55+08:00 ] 0.0.0.0 /tp_jun/admin.php/Work/addwork
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002282s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002598s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002101s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002154s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002467s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.021484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021830s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001900s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001545s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001175s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001694s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007197s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001986s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002245s ]
+
+[ 2014-08-12T19:09:40+08:00 ] 0.0.0.0 /tp_jun/admin.php/Work/doadd
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000816s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000925s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000644s ]
+SQL: SHOW COLUMNS FROM `tp_workdynamic` [ RunTime:0.003015s ]
+SQL: INSERT INTO `tp_workdynamic` (`title`,`author`,`content`,`time`) VALUES ('保卫处主持召开大学生军训团、学生校卫队成绩优秀团员、队员表彰大会','邓慧','<p style=\"text-align:center;text-autospace:ideograph-other;border:none;padding:0;padding:21px 0 21px 0\"><strong><span style=\"font-family:宋体;color:#333333\">保卫处主持召开大学生军训团、学生校卫队成绩优秀团员、队员表彰大会</span></strong></p><p style=\"text-align: center;line-height: 26px;border: none;padding: 0\"><span style=\"font-size: 12px;font-family: 宋体;color: rgb(167, 167, 167)\">作者：军训团办公室&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 发布时间：2011-05-17&nbsp;&nbsp; </span></p><p style=\"margin-top:8px;margin-right:0;margin-bottom:8px;margin-left:0;text-indent:24px;line-height:25px;text-autospace:ideograph-other;border:none;padding:0;padding:0 0 0 0\"><span style=\"font-size:12px;font-family:宋体;color:#333333\">为了鼓励大学生军训团员、学生校卫队员，激励两支队伍学员努力学习，处理好学习与工作的关系，2011年4月10日晚，保卫处主持在南校一教206室召开大学生军训团、学生校卫队成绩优秀团员、队员表彰大会。</span></p><p style=\"margin-top:8px;margin-right:0;margin-bottom:8px;margin-left:0;text-indent:24px;line-height:25px;text-autospace:ideograph-other;border:none;padding:0;padding:0 0 0 0\"><span style=\"font-size:12px;font-family:宋体;color:#333333\">保卫处处长、武装部部长李红革教授、副处长、副部长蒋会平老师、王尔希老师、项志老师、蔡栋梁老师、全体大学生军训团团员、学生校卫队队员出席了会议。会议由保卫处副处长蒋会平主持。</span></p><p style=\"margin: 8px 0;text-indent: 24px;line-height: 25px;border: none;padding: 0\"><span style=\"font-size:12px;font-family:宋体;color:#333333\">会上，李红革教授发表讲话，他首先强调了学习的重要性，并对大学生军训团、学生校卫队工作给予了充分肯定。同时他对两支队伍将来在建设上提出了以下四点要求：</span></p><p style=\"margin: 8px 0;text-indent: 24px;line-height: 25px;border: none;padding: 0\"><span style=\"font-size:12px;font-family:宋体;color:#333333\">一、</span><span style=\"font-size:12px;font-family:宋体;color:#333333\">增强创新意识、打造一流品牌；</span></p><p style=\"margin: 8px 0;text-indent: 24px;line-height: 25px;border: none;padding: 0\"><span style=\"font-size:12px;font-family:宋体;color:#333333\">二、</span><span style=\"font-size:12px;font-family:宋体;color:#333333\">坚持勤奋学习，认真努力工作；</span></p><p style=\"margin: 8px 0;text-indent: 24px;line-height: 25px;border: none;padding: 0\"><span style=\"font-size:12px;font-family:宋体;color:#333333\">三、</span><span style=\"font-size:12px;font-family:宋体;color:#333333\">注重后备干部培养、提高队员综合素质；</span></p><p style=\"margin: 8px 0;text-indent: 24px;line-height: 25px;border: none;padding: 0\"><span style=\"font-size:12px;font-family:宋体;color:#333333\">四、</span><span style=\"font-size:12px;font-family:宋体;color:#333333\">增强沟通意识，沟通产生感情。</span></p><p style=\"margin: 8px 0;text-indent: 24px;line-height: 25px;border: none;padding: 0\"><span style=\"font-size:12px;font-family:宋体;color:#333333\">最后，副处长蒋会平宣读了《大学生军训团学成绩优秀团员、生校卫队成绩优秀队员名单》，对其进行了表彰，由李红革教授为获奖者颁发了荣誉证书并与其合影留念。</span></p><p style=\"margin-top:8px;margin-right:0;margin-bottom:8px;margin-left:0;text-align:center;line-height:25px;text-autospace:ideograph-other;border:none;padding:0;padding:0 0 0 0\"><span style=\"font-size:14px\"><img src=\"/ueditor/php/upload/image/20140812/1407841772798024.jpg\" title=\"1407841772798024.jpg\"/></span></p><p style=\"margin-top:8px;margin-right:0;margin-bottom:8px;margin-left:0;text-align:center;text-indent:24px;line-height:25px;text-autospace:ideograph-other;border:none;padding:0;padding:0 0 0 0\"><span style=\"font-size:12px;font-family:宋体;color:#333333\">&nbsp;</span></p><p>&nbsp;</p><p>&nbsp; 	<br/></p>','2014-8-12') [ RunTime:0.000508s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000869s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000993s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.007825s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007943s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000518s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000506s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000597s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000635s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002554s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000728s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000809s ]
+
+[ 2014-08-12T19:09:41+08:00 ] 0.0.0.0 /tp_jun/admin.php/Work/addwork
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001317s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001541s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001333s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001423s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001624s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.012682s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012928s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001063s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000798s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000501s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000753s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003522s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000819s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000912s ]
+
+[ 2014-08-12T19:09:45+08:00 ] 0.0.0.0 /tp_jun/admin.php/Work/addwork
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000686s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000694s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000798s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.005988s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006103s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000450s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000467s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000354s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000558s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002115s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000680s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000760s ]
+
+[ 2014-08-12T19:12:58+08:00 ] 0.0.0.0 /tp_jun/admin.php/Work/doadd
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000858s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000984s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+SQL: SHOW COLUMNS FROM `tp_workdynamic` [ RunTime:0.002899s ]
+SQL: INSERT INTO `tp_workdynamic` (`title`,`author`,`content`,`time`) VALUES ('军训，我们准备好了！','邓慧','<p>\r\n		&nbsp;</p><p style=\"text-align: center;\"><strong><span style=\"font-size:24px;font-family:宋体;color:#323E32\">军训，我们准备好了！</span></strong></p><p style=\"line-height: 18px\"><span style=\"font-size:16px;font-family:宋体;color:#323E32\"><img width=\"15\" height=\"15\" src=\"http://localhost/tp_jun/ueditor/themes/default/images/spacer.gif\" word_img=\"file:///C:/Users/DengHui/AppData/Local/Temp/msohtmlclip1/01/clip_image002.gif\" style=\"background:url(http://localhost/tp_jun/ueditor/themes/default/images/word.gif) no-repeat center center;border:1px solid #ddd\"/>&nbsp;&nbsp;</span><span style=\"font-size:15px;font-family:&#39;simsun&#39;,&#39;serif&#39;;color:#323E32\">10</span><span style=\"font-size:15px;font-family:宋体;color:#323E32\">天的集训结束了，在领导的关怀下我们收获了不少，让我们成长很多，让我们在锻炼自己的同时也建立起了坚定不移的战友情！在集训的过程中天气很炎热，训练很辛苦，在训练场上每个人都汗流浃背，但是没有一个人叫苦，没有人一个人放弃，在集训中期间我们大家一起训练，一起吃住，一起玩耍，一起欢笑，一起难过这让我们领悟到了</span><span style=\"font-size:15px;font-family:&#39;simsun&#39;,&#39;serif&#39;;color:#323E32\">“</span><span style=\"font-size:15px;font-family:宋体;color:#323E32\">不抛弃，不放弃</span><span style=\"font-size:15px;font-family:&#39;simsun&#39;,&#39;serif&#39;;color:#323E32\">”</span><span style=\"font-size:15px;font-family:宋体;color:#323E32\">的真谛！在这</span><span style=\"font-size:15px;font-family:&#39;simsun&#39;,&#39;serif&#39;;color:#323E32\">10</span><span style=\"font-size:15px;font-family:宋体;color:#323E32\">天里我们每个人心中只有一个信念就是：一定要当一个好教官！我们也一直在为这个目标奋斗。</span></p><p style=\"margin-bottom: 5px;text-indent: 32px;line-height: 150%\"><span style=\"font-size:15px;line-height:150%;font-family:宋体;color:#323E32\">我们口号是：铁血军团，壮我科大，刻苦训练，争创一流！</span><span style=\"font-size:13px;line-height:150%;font-family:&#39;simsun&#39;,&#39;serif&#39;;color:#323E32\">&nbsp;</span></p><p style=\"margin-bottom: 5px;text-indent: 32px;line-height: 150%\"><span style=\"font-size:15px;line-height:150%;font-family:宋体;color:#323E32\">还有</span><span style=\"font-size:15px;line-height:150%;font-family:&#39;simsun&#39;,&#39;serif&#39;;color:#323E32\">10</span><span style=\"font-size:15px;line-height:150%;font-family:宋体;color:#323E32\">多天军训就要来到了，正所为：</span><span style=\"font-size:15px;line-height:150%;font-family:&#39;simsun&#39;,&#39;serif&#39;;color:#323E32\">“</span><span style=\"font-size:15px;line-height:150%;font-family:宋体;color:#323E32\">养兵千日用兵一时。</span><span style=\"font-size:15px;line-height:150%;font-family:&#39;simsun&#39;,&#39;serif&#39;;color:#323E32\">”</span><span style=\"font-size:15px;line-height:150%;font-family:宋体;color:#323E32\">我们一定不会辜负首长对我们的期望，我们一定会以最优异的成绩来让首长们满意的！</span></p><p style=\"margin-bottom: 5px;text-indent: 32px;line-height: 150%\"><span style=\"font-size:15px;line-height:150%;font-family:宋体;color:#323E32\">军训你来吧，我们准备好了！</span></p><p style=\";margin-bottom: 5px;line-height: 150%\"><span style=\"font-size:13px;line-height:150%;font-family:&#39;simsun&#39;,&#39;serif&#39;;color:#323E32\"><a href=\"http://photo.blog.sina.com.cn/showpic.html#blogid=5f76f7160100ekhc&url=http://static16.photo.sina.com.cn/orignal/5f76f716h728891bbcdbf&690\" target=\"_blank\"><span style=\"color:blue;text-underline: none\"><img border=\"0\" src=\"/ueditor/php/upload/image/20140812/1407841962135141.jpg\" alt=\"军训&nbsp;&lt;wbr&gt;我们准备好了！\" title=\"1407841962135141.jpg\"/></span></a><a href=\"http://photo.blog.sina.com.cn/showpic.html#blogid=5f76f7160100ekhc&url=http://static3.photo.sina.com.cn/orignal/5f76f716h72888fa488d2&690\" target=\"_blank\"></a></span></p><p style=\"text-indent: 32px;line-height: 150%\"><span style=\"font-size:15px;line-height:150%;font-family:&#39;simsun&#39;,&#39;serif&#39;;color:#323E32\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>——</strong></span><strong><span style=\"font-size:15px;line-height:150%;font-family:宋体;color:#323E32\">大学生军训团</span></strong><strong><span style=\"font-size:15px;line-height:150%;font-family: &#39;simsun&#39;,&#39;serif&#39;;color:#323E32\">08</span></strong><strong><span style=\"font-size:15px;line-height: 150%;font-family:宋体;color:#323E32\">届队员</span></strong><strong><span style=\"font-size:15px;line-height:150%;font-family:&#39;simsun&#39;,&#39;serif&#39;;color:#323E32\">&nbsp; </span></strong><strong><span style=\"font-size:15px;line-height: 150%;font-family:宋体;color:#323E32\">杨珺</span></strong></p><p>&nbsp;</p><p><br/></p>','2014-8-12') [ RunTime:0.000548s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000605s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000699s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006375s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006489s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000495s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000458s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000367s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000523s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002087s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000622s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000701s ]
+
+[ 2014-08-12T19:13:00+08:00 ] 0.0.0.0 /tp_jun/admin.php/Work/addwork
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002004s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002330s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002456s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002209s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002579s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.020293s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020694s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001557s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001658s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001877s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001966s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007902s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001948s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002206s ]
+
+[ 2014-08-12T19:13:01+08:00 ] 0.0.0.0 /tp_jun/admin.php/Work/addwork
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000649s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000842s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000627s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000718s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.005614s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005735s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000480s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000488s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000355s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000558s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002115s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000620s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000699s ]
+
+[ 2014-08-12T19:13:06+08:00 ] 0.0.0.0 /tp_jun/admin.php/Index/workDynamic
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000613s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000597s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000730s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.005560s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005680s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000478s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000461s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000353s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000533s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002085s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000622s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000701s ]
+
+[ 2014-08-12T19:13:07+08:00 ] 0.0.0.0 /tp_jun/admin.php/Work/addwork
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000603s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000742s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000629s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000720s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006126s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000492s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000459s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000370s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000523s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002083s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000621s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000700s ]
+
+[ 2014-08-12T19:14:15+08:00 ] 0.0.0.0 /tp_jun/admin.php/Index/workDynamic
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000624s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000797s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000575s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000668s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.005278s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005386s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000445s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000495s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000355s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000606s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002133s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000640s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000719s ]
+
+[ 2014-08-12T19:14:16+08:00 ] 0.0.0.0 /tp_jun/admin.php/Work/addwork
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000631s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000596s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000712s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.005633s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005743s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000476s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000453s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000353s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000526s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002075s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000659s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000738s ]
+
+[ 2014-08-12T19:14:16+08:00 ] 0.0.0.0 /tp_jun/admin.php/Index/workDynamic
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000630s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000600s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000690s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.005233s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005345s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000503s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000459s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000387s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000520s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002101s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000620s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000699s ]
+
+[ 2014-08-12T19:14:17+08:00 ] 0.0.0.0 /tp_jun/admin.php/Work/addwork
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000645s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000619s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000709s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006053s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006170s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000485s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000455s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000351s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000533s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002071s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000613s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000691s ]
+
+[ 2014-08-12T19:14:46+08:00 ] 0.0.0.0 /tp_jun/admin.php/Index/workDynamic
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000612s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000572s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000664s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.005539s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005652s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000492s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000459s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000378s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000517s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002076s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000617s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000696s ]
+
+[ 2014-08-12T21:49:50+08:00 ] 0.0.0.0 /tp_jun/admin.php/Index/workDynamic
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001223s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001394s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002182s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000783s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000886s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.007380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007513s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000670s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000648s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000657s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000682s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002924s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001030s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001175s ]
+
+[ 2014-08-12T21:59:24+08:00 ] 0.0.0.0 /tp_jun/admin.php/Index/workDynamic
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002447s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002781s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000595s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000690s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.007234s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007353s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000477s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000485s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000372s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000616s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002185s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001633s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001789s ]
+
+[ 2014-08-12T21:59:25+08:00 ] 0.0.0.0 /tp_jun/admin.php/Work/addwork
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000736s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000842s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000918s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001038s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.008193s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008331s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000548s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000693s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000379s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000535s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002432s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000642s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000722s ]
+
+[ 2014-08-12T21:59:27+08:00 ] 0.0.0.0 /tp_jun/admin.php/LiuYan/checkMessage
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000759s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000864s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001207s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.003120s ]
+SQL: SELECT * FROM `tp_message`  [ RunTime:0.000262s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000910s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001024s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.009220s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009358s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000463s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000756s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000437s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000525s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002436s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000655s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000735s ]
+
+[ 2014-08-12T22:21:03+08:00 ] 0.0.0.0 /tp_jun/admin.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000900s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001011s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000929s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001027s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010891s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011051s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000791s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000779s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000453s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000736s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003080s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001068s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001150s ]
+
